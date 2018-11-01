@@ -48,7 +48,7 @@ L1_1 = L1_1(L0_0)
 pcall(L1_1)
 end
 
-function lebih()
+function Lebih()
 gg.alert("Catatan :\n•Jangan Menggunakan Scrip ini di Aplikasi Original")
 local L0_0, L1_1
 L0_0 = loadfile
