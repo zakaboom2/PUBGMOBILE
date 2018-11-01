@@ -40,7 +40,7 @@ err = L1_1
 f = L0_0
 L0_0 = gg
 L0_0 = L0_0.makeRequest
-L1_1 = "https://github.com/zakaboom2/pubg/blob/master/crack.lua?raw=true"
+L1_1 = "https://raw.githubusercontent.com/zakaboom2/PUBGMOBILE/master/crack"
 L0_0 = L0_0(L1_1)
 L0_0 = L0_0.content
 L1_1 = load
