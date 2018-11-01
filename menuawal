@@ -9,7 +9,7 @@ MENU = gg.choice({
 if MENU == 1 then Play() end
 if MENU == 2 then Crack() end
 if MENU == 3 then Lebih() end
-if MENU == 4 then EXIT() end
+if MENU == 4 then CLOSE() end
 end
 
 function Play()
