@@ -466,16 +466,29 @@ land2 = gg.choice({
 	"━═✿ RUMPUT ✿═━",
 	"━═✿ LANGIT GELAP ✿═━",
 	"━═✿ MICRO AIMBOT ✿═━\n2x scan",
+	"━═✿ AIM LOCK ✿═━",
 	"ᴋ ᴇ ᴍ ʙ ᴀ ʟ ɪ ⤵"
 },nil,"MENU LANDING")
 if land2 == 1 then magicbul() end
 if land2 == 2 then Rumput() end
 if land2 == 3 then LangitM() end
 if land2 == 4 then AimMicro() end
-if land2 == 5 then HOME() end
+if land2 == 5 then AimLock() end
+if land2 == 6 then HOME() end
 jhv=-1
 end
 
+function AimLock()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("360.0;0.0001;1,478,828,288.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultCount()
+gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("1998", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast(" 😄 ᴄʜᴇᴀᴛᴇʀ ɴᴜᴜʙ 😄 ")
+end
 
 function LangitM()
 gg.clearResults()
