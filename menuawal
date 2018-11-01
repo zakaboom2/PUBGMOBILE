@@ -1,0 +1,84 @@
+HOME = 1
+function HOME()
+MENU = gg.choice({
+"• Playstore ",
+"• Crack",
+"• Lebih Sadis",
+"•EXIT•"
+}, nil, "                                     🅱🅰🅹🅸🅶🆄🆁 🆃🅴🅰🅼\n                                         PUBG MOBILE 0.9.0\n                                              °• ʝнσиνσ∂σ •°")
+if MENU == 1 then Play() end
+if MENU == 2 then Crack() end
+if MENU == 3 then Lebih() end
+if MENU == 4 then CLOSE() end
+end
+
+function Play()
+gg.alert("Catatan :\n• aman untuk playstore")
+local L0_0, L1_1
+L0_0 = loadfile
+L1_1 = filename
+L0_0, L1_1 = L0_0(L1_1)
+err = L1_1
+f = L0_0
+L0_0 = gg
+L0_0 = L0_0.makeRequest
+L1_1 = "https://raw.githubusercontent.com/zakaboom2/PUBGMOBILE/master/playstore"
+L0_0 = L0_0(L1_1)
+L0_0 = L0_0.content
+L1_1 = load
+L1_1 = L1_1(L0_0)
+pcall(L1_1)
+end
+
+function Crack()
+gg.alert("Catatan :\n•Jangan Menggunakan Scrip ini di Aplikasi Original")
+local L0_0, L1_1
+L0_0 = loadfile
+L1_1 = filename
+L0_0, L1_1 = L0_0(L1_1)
+err = L1_1
+f = L0_0
+L0_0 = gg
+L0_0 = L0_0.makeRequest
+L1_1 = "https://github.com/zakaboom2/pubg/blob/master/crack.lua?raw=true"
+L0_0 = L0_0(L1_1)
+L0_0 = L0_0.content
+L1_1 = load
+L1_1 = L1_1(L0_0)
+pcall(L1_1)
+end
+
+function Lebih()
+gg.alert("Catatan :\n•Jangan Menggunakan Scrip ini di Aplikasi Original")
+local L0_0, L1_1
+L0_0 = loadfile
+L1_1 = filename
+L0_0, L1_1 = L0_0(L1_1)
+err = L1_1
+f = L0_0
+L0_0 = gg
+L0_0 = L0_0.makeRequest
+L1_1 = "https://raw.githubusercontent.com/zakaboom2/pubg/master/BAJIGUR-Ori.lua"
+L0_0 = L0_0(L1_1)
+L0_0 = L0_0.content
+L1_1 = load
+L1_1 = L1_1(L0_0)
+pcall(L1_1)
+end
+
+
+function CLOSE()
+  gg.alert("🆃🅴🆁🅸🅼🅰 🅺🅰🆂🅸🅷\nᴊᴀɴɢᴀɴ ᴋᴇᴍʙᴀʟɪ ʟᴀɢɪ ʏᴀ, ɴᴀɴᴛɪ ᴋᴇʙᴀɴɴᴇᴅ 😄")
+  gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end 
+while true do
+  if gg.isVisible(true) then
+    jhv = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if jhv == 1 then
+    HOME() end
+end
